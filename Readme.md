@@ -27,21 +27,21 @@ Run the python script shoes_init.py
 
 Run the python script fakeStore/dataset.py
 
-Create a .env file and paste the following contents into it:
-GEMINI_API_KEY=(insert your api key here)
-SECRET_KEY=1131714638dd80d57154725d8c317937
-DB_URI="sqlite:///test.db"
-EMAIL=xyz@gmail.com
-PASSWORD=xyz123
-STRIPE_PUBLIC=pk_test_51RXG0PP9PkOnkc6Midu0uHYeERlaUiKB7I6KMChkWVIVxa7NJHxfGHZxtkAQZKGN1lGeKEZLMoA0MOvMNHZhsKYv00jd6R3Gsw
-STRIPE_PRIVATE=sk_test_51RXG0PP9PkOnkc6MbJedioezSElNtO506u2rjg59THZ2ELn7bE6zvtcClfVjhJC53nyHZbPWuNqfrFOboFQW3Xvm00mQUOTLGu
-ENDPOINT_SECRET=whsec_fa6637cca291e72c147ed535145a36902ba61c0bb9bb65cc831fd332f579ed48
+Create a .env file and paste the following contents into it:  
+GEMINI_API_KEY=(insert your api key here)  
+SECRET_KEY=1131714638dd80d57154725d8c317937  
+DB_URI="sqlite:///test.db"  
+EMAIL=xyz@gmail.com  
+PASSWORD=xyz123  
+STRIPE_PUBLIC=pk_test_51RXG0PP9PkOnkc6Midu0uHYeERlaUiKB7I6KMChkWVIVxa7NJHxfGHZxtkAQZKGN1lGeKEZLMoA0MOvMNHZhsKYv00jd6R3Gsw  
+STRIPE_PRIVATE=sk_test_51RXG0PP9PkOnkc6MbJedioezSElNtO506u2rjg59THZ2ELn7bE6zvtcClfVjhJC53nyHZbPWuNqfrFOboFQW3Xvm00mQUOTLGu  
+ENDPOINT_SECRET=whsec_fa6637cca291e72c147ed535145a36902ba61c0bb9bb65cc831fd332f579ed48  
 
-Note that you can get a gemini api key for free at https://aistudio.google.com/app/apikey
-If there is any issue with getting Gemini running, please contact the team.
-The other API keys are already directly given.
+Note that you can get a gemini api key for free at https://aistudio.google.com/app/apikey.  
+If there is any issue with getting Gemini running, please contact the team.  
+The other API keys are already directly given.  
 
-Install all the dependencies in requirements.txt
+Install all the dependencies in requirements.txt  
 
-Run fakeStore/Flask-O-shop/app.py (This launches our backend website)
+Run fakeStore/Flask-O-shop/app.py (This launches our backend website)  
 Run app.py (This launches our AI shopping assistant app)
