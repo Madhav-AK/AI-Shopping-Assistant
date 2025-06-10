@@ -44,4 +44,6 @@ The other API keys are already directly given.
 Install all the dependencies in requirements.txt  
 
 Run fakeStore/Flask-O-shop/app.py (This launches our backend website)  
-Run app.py (This launches our AI shopping assistant app)
+Parallely run app.py (This launches our AI shopping assistant app)  
+Ensure that both are running in parallelly on different terminals  
+ 
