@@ -1,9 +1,17 @@
 import json
 from app import app, db  # Make sure app is also imported
 from app.db_models import Item
+import os
+
+# Get the directory of the current file
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the path to the metadata.json
+json_path = os.path.join(BASE_DIR, '..', 'static', 'uploads', 'metadata.json')
+json_path = os.path.normpath(json_path)  # Normalize the path (e.g., convert ..)
 
 with app.app_context():  # <- FIX: Start application context
-    with open(r'C:\Users\madha\OneDrive\Madhav\IITM\AI Guild\Appian\Appian Round 3\AI-Shopping-Assistant\fakeStore\static\uploads\metadata.json') as f:
+    with open(json_path) as f:
         data = json.load(f)
 
     for entry in data:

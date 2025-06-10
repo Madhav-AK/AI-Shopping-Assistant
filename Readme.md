@@ -45,5 +45,5 @@ Install all the dependencies in requirements.txt
 
 Run fakeStore/Flask-O-shop/app.py (This launches our backend website)  
 Parallely run app.py (This launches our AI shopping assistant app)  
-Ensure that both are running in parallelly on different terminals  
+Ensure that both are running in parallel on different terminals on the same system
  
