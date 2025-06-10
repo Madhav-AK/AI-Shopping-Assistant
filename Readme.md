@@ -1,6 +1,6 @@
 # Project Details
 
-This project is an attempt at Theme-1 of the Appian AIgnite Hackathon, Round 2.  
+This project is an attempt at Theme-1 of the Appian AIgnite Hackathon, Round 3.  
 It is an AI-Powered Personal Shopping Assistant for E-Commerce proof-of-concept on a footwear-only dataset.  
 
 
